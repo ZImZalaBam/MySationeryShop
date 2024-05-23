@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stationery Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.png" alt="My Stationery Shop Logo" class="logo">
+            <h1>My Stationery Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to My Stationery Shop</h2>
+        <p>Your one-stop shop for all your stationery needs!</p>
+        
+        <section id="image-slider">
+            <div class="range">
+                <div class="range">
+                    <div class="range">
+                        <img src="Yellow Blue Simple Cute Book Store Logo.jpg" alt="Notebook">
+                    </div>
+                    <div class="range">
+                        <img src="Orange Stationery Sale Artsy Photo Facebook Post.jpg" alt="Pen">
+                    </div>
+                    <div class="range">
+                        <img src="Black And Yellow Back To School Illustrative Facebook Post.png" alt="Pencil">
+                    </div>
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Stationery Shop</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
